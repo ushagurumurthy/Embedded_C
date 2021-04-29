@@ -10,6 +10,7 @@
  */
 #include "Activity_1.h"
 #include "Activity_2.h"
+#include "Activity_3.h"
 #define ON 1
 /**
  * @brief Main function
