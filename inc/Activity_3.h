@@ -18,4 +18,10 @@
  * 
  */
 void InitializePWM(void);
+/**
+ * @brief Function to Generate PWM    
+ * 
+ * @param[in] Temperature input temperature obtained from ADC 
+ */
+void GeneratePWM(uint16_t);
 #endif  /* _ACTIVITY3_H_ */
