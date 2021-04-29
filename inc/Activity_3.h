@@ -3,7 +3,7 @@
 
 /**
  * @file Activity_3.h
- * @author UshaBG ()
+ * @author Usha B G ()
  * @brief Activity_3
  * @version 0.1
  * @date 2021-04-27
