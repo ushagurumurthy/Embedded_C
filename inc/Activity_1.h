@@ -2,10 +2,10 @@
 #define _ACTIVITY_1_H_
 /**
  * @file Activity_1.h
- * @author UshaBG
+ * @author Usha B G ()
  * @brief Activity_1
  * @version 0.1
- * @date 2021-04-26
+ * @date 2021-04-24
  * 
  * @copyright Copyright (c) 2021
  * 
