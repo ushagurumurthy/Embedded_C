@@ -10,7 +10,7 @@
  */
 #include "Activity_1.h"
 #include "Activity_2.h"
-
+#define ON 1
 /**
  * @brief Main function
  * 
@@ -20,8 +20,18 @@
  */
 int main(void)
 {
-	InitializePeripherals();/* Initialize Peripherals */
-	/* Turns LED ON if and only if both switches ButtonSensor and Heater are closed */
-	StatusOfLedActuator();
+	uint16_t Temperature=0, ADCchannel=0;
+	uint8_t Status=0;
+	while(1){
+		InitializePeripherals();/* Initialize Peripherals */
+		InitializeADC();/* Initialize Peripherals for ADC */
+    	        InitializePWM();/* Initialize Peripherals for PWM */
+		/* Turns LED ON if and only if both switches ButtonSensor and Heater are closed */
+		Status=StatusOfLedActuator();
+		if(Status==ON){
+			Temperature = ReadADC(ADCchannel); /*reads sensor data from ADCChannel*/
+    	                GeneratePWM(Temperature); /*Generates PWM according to data received from sensor*/
+		}
+	}
 	return 0;
 }
