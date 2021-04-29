@@ -27,9 +27,9 @@ void SetHeaterSensorPin(void)
 void InitializePeripherals(void)
 {
 	/* Configure LED Pin */
-	SET_PORTB0;//Makes first pin of PORTB as Output
-    SET_PORTD; //Makes all pins of PORTD input
-	SET_PD0_AND_PD1; //Pull Up 
+	SET_PORTB0_AS_OUTPUT;//Makes first pin of PORTB as Output
+        SET_PORTD_AS_INPUT; //Makes all pins of PORTD input
+	SET_PD0_AND_PD1_AS_PULLUP; //Pull Up 
     SetButtonSensorPin();
     SetHeaterSensorPin();
 }
@@ -37,6 +37,7 @@ void InitializePeripherals(void)
 uint8_t StatusOfLedActuator(void)
 {   
     uint8_t FLAG=0;
+    InitializePeripherals();/* Initialize Peripherals */
     ChangeLEDState(LED_OFF);
     /*checks whether button sensor is ON or OFF */
     if(BUTTON_SENSOR_ON){
