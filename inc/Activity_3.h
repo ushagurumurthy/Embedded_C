@@ -1,5 +1,5 @@
-#ifndef _ACTIVITY_3_H_
-#define _ACTIVITY_3_H_
+#ifndef _ACTIVITY3_H_
+#define _ACTIVITY3_H_
 
 /**
  * @file Activity_3.h
