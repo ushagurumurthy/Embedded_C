@@ -1,3 +1,3 @@
-# Embedded_C
+# Embedded_C Programming Activities
 
-### Activity 1
+## SEAT HEATING APPLICATION
