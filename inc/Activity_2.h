@@ -1,5 +1,5 @@
-#ifndef _ACTIVITY_2_H_
-#define _ACTIVITY_2_H_
+#ifndef _ACTIVITY2_H_
+#define _ACTIVITY2_H_
 
 /**
  * @file Activity_2.h
@@ -21,8 +21,8 @@ void InitializeADC();
 
 /**
  * @brief Function to read values from a channel 
- * @param[in] channel channel number
+ * @param[in] channel number
  */
 uint16_t ReadADC(uint8_t channel);
 
-#endif /* _ACTIVITY_2_H_ */
+#endif /* _ACTIVITY2_H_ */
