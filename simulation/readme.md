@@ -25,7 +25,7 @@
 |![image](https://user-images.githubusercontent.com/67991189/116649093-4276b400-a99c-11eb-9848-d30949ab5d34.png) | 
 |PWM_70% Dutycycle|
 |   |   
-||
+|![image](https://user-images.githubusercontent.com/67991189/116649167-5de1bf00-a99c-11eb-8032-72e54713cef7.png)|
 | PWM_95% Dutycycle|
 |  |
 ||
