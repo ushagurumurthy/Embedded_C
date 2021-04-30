@@ -10,6 +10,8 @@
 
 ## Activity_2
 ### If both the above conditions satisfies to be true, then the input analog temperature readings are converted into digital values.
+![image](https://user-images.githubusercontent.com/67991189/116648893-d1cf9780-a99b-11eb-9fa7-bbb41a53a2b7.png)
+
 
 ## Activity_3
 
