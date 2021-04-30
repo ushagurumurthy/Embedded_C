@@ -19,7 +19,7 @@
 
 |PWM_20% Dutycycle|
 |:--:|
-||
+|![image](https://user-images.githubusercontent.com/67991189/116649043-24a94f00-a99c-11eb-8291-dd24d501e699.png)|
 | PWM_40% Dutycycle|
 |  |
 | | 
