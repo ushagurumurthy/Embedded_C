@@ -6,7 +6,7 @@
 
 |ON|OFF|
 |:--:|:--:|
-||![image](https://user-images.githubusercontent.com/67991189/116648930-ead84880-a99b-11eb-9c34-1518f9fba3ae.png)|
+|![image](https://user-images.githubusercontent.com/67991189/116648970-004d7280-a99c-11eb-8b2d-3014292d2e42.png)|![image](https://user-images.githubusercontent.com/67991189/116648930-ead84880-a99b-11eb-9c34-1518f9fba3ae.png)|
 
 ## Activity_2
 ### If both the above conditions satisfies to be true, then the input analog temperature readings are converted into digital values.
