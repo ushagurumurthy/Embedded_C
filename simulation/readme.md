@@ -33,3 +33,4 @@
 ## Activity_4
 
 ### The digital temperature values can be visualized in serial monitor using USART protocol
+![image](https://user-images.githubusercontent.com/67991189/116649293-9c777980-a99c-11eb-8388-2b6b3e8f8484.png)
