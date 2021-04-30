@@ -28,7 +28,7 @@
 |![image](https://user-images.githubusercontent.com/67991189/116649167-5de1bf00-a99c-11eb-8032-72e54713cef7.png)|
 | PWM_95% Dutycycle|
 |  |
-||
+|![image](https://user-images.githubusercontent.com/67991189/116649211-75b94300-a99c-11eb-9830-2be9c1a4656a.png)|
 
 ## Activity_4
 
